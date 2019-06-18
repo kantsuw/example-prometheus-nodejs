@@ -2,11 +2,17 @@
 
 ## Goal
 
-Setup monitoring with [Prometheus](https://prometheus.io) and [Grafana](https://grafana.com).
+1. Setup application with metrics path , and configuration prometheus to collect the data
+
+2. Setup monitoring with [Prometheus](https://prometheus.io) and [Grafana](https://grafana.com).
 
 ## Steps
 
-1. Run sample server: `npm install` and `node server`
+### Run application
+
+1. Run sample server: `npm install` and `node src/index.js`
+
+### Steps prometheus + grafana ###
 2. Run Prometheus: see below
 3. Visit your running Prometheus and run queries
 4. Run Grafana: see below
